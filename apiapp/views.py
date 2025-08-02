@@ -7,7 +7,20 @@ from rest_framework.permissions import IsAuthenticated
 
 from .models import User, Project
 from .serializers import UserSerializer, ProjectSerializer
-from .permissions import IsAdmin, IsUser
+
+
+
+@api_view(['GET'])
+def getRoutes(request):
+    routes=[
+        {'POST':'api/register/'},
+        {'POST':'api/login/'},
+        {'GET, POST':'/api/projects/'},
+        {'GET, PUT, DELETE':'/api/projects/id/'},
+    ]
+    return Response(routes)
+
+
 
 @api_view(['POST'])
 def register_user(request):
