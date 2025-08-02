@@ -75,6 +75,6 @@ Endpoint -- Method -- Description -- Access
 /api/login/ -- POST -- Login and get JWT token -- Public  
 /api/projects/ -- GET -- List all projects -- Authenticated  
 /api/projects/ -- POST -- Create new project -- Admin only  
-/api/projects/<id>/ -- GET -- Get project details -- Authenticated  
-/api/projects/<id>/ -- PUT -- Update project -- Admin only  
-/api/projects/<id>/ -- DELETE -- Delete project -- Admin only  
+/api/projects/&lt;id&gt;/ -- GET -- Get project details -- Authenticated  
+/api/projects/&lt;id&gt;/ -- PUT -- Update project -- Admin only  
+/api/projects/&lt;id&gt;/ -- DELETE -- Delete project -- Admin only
