@@ -10,7 +10,7 @@ A secure REST API implementation with JWT authentication and Role-Based Access C
 
 ## Table of Contents
 
-1. [Installation](#installation:)
+1. [Installation](#Installation:)
 2. [Dependencies](#Install-dependencies:)
 3. [API Endpoints](#api-endpoints)
 
@@ -70,11 +70,11 @@ python manage.py runserver
 
 ## api-endpoints
 
-Endpoint -- Method -- Description -- Access
-/api/register/ -- POST -- Register new user -- Public
-/api/login/ -- POST -- Login and get JWT token -- Public
-/api/projects/ -- GET -- List all projects -- Authenticated
-/api/projects/ -- POST -- Create new project -- Admin only
-/api/projects/<id>/ -- GET -- Get project details -- Authenticated
-/api/projects/<id>/ -- PUT -- Update project -- Admin only
-/api/projects/<id>/ -- DELETE -- Delete project -- Admin only
+Endpoint -- Method -- Description -- Access  
+/api/register/ -- POST -- Register new user -- Public  
+/api/login/ -- POST -- Login and get JWT token -- Public  
+/api/projects/ -- GET -- List all projects -- Authenticated  
+/api/projects/ -- POST -- Create new project -- Admin only  
+/api/projects/<id>/ -- GET -- Get project details -- Authenticated  
+/api/projects/<id>/ -- PUT -- Update project -- Admin only  
+/api/projects/<id>/ -- DELETE -- Delete project -- Admin only  
